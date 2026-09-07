@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#121212</color>
+    <color name="display_bg">#1E1E1E</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="btn_number">#2A2A2A</color>
+    <color name="btn_operator">#FF9500</color>
+    <color name="btn_function">#3A3A3A</color>
+</resources>

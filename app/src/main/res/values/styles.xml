@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CalcButtonBase">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">0dp</item>
+        <item name="cornerRadius">100dp</item>
+    </style>
+
+    <style name="CalcButtonNumber" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="backgroundTint">@color/btn_number</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="cornerRadius">100dp</item>
+    </style>
+
+    <style name="CalcButtonFunction" parent="CalcButtonNumber">
+        <item name="backgroundTint">@color/btn_function</item>
+        <item name="android:textColor">@color/btn_operator</item>
+    </style>
+
+    <style name="CalcButtonOperator" parent="CalcButtonNumber">
+        <item name="backgroundTint">@color/btn_function</item>
+        <item name="android:textColor">@color/btn_operator</item>
+    </style>
+
+    <style name="CalcButtonEquals" parent="CalcButtonNumber">
+        <item name="backgroundTint">@color/btn_operator</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
